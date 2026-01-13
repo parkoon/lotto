@@ -1,0 +1,101 @@
+{
+  "description": "로또 번호 6개의 홀수와 짝수 비율을 제한하는 필터입니다. 극단적인 비율보다는 균형잡힌 비율이 더 자주 나타납니다.",
+  "conservative": {
+    "ratios": [
+      {
+        "odd": 3,
+        "even": 3,
+        "count": 401,
+        "percentage": "33.98"
+      },
+      {
+        "odd": 4,
+        "even": 2,
+        "count": 311,
+        "percentage": "26.36"
+      },
+      {
+        "odd": 2,
+        "even": 4,
+        "count": 263,
+        "percentage": "22.29"
+      }
+    ],
+    "description": "가장 빈번한 상위 3개 비율 (3:3, 4:2, 2:4)"
+  },
+  "balanced": {
+    "ratios": [
+      {
+        "odd": 3,
+        "even": 3,
+        "count": 401,
+        "percentage": "33.98"
+      },
+      {
+        "odd": 4,
+        "even": 2,
+        "count": 311,
+        "percentage": "26.36"
+      },
+      {
+        "odd": 2,
+        "even": 4,
+        "count": 263,
+        "percentage": "22.29"
+      },
+      {
+        "odd": 5,
+        "even": 1,
+        "count": 92,
+        "percentage": "7.80"
+      },
+      {
+        "odd": 1,
+        "even": 5,
+        "count": 78,
+        "percentage": "6.61"
+      }
+    ],
+    "description": "균형잡힌 상위 5개 비율 (3:3, 4:2, 2:4, 5:1, 1:5)"
+  },
+  "aggressive": {
+    "ratios": [
+      {
+        "odd": 3,
+        "even": 3,
+        "count": 401,
+        "percentage": "33.98"
+      },
+      {
+        "odd": 4,
+        "even": 2,
+        "count": 311,
+        "percentage": "26.36"
+      }
+    ],
+    "description": "가장 높은 확률의 상위 2개 비율 (3:3, 4:2)"
+  },
+  "ai": {
+    "ratios": [
+      {
+        "odd": 4,
+        "even": 2,
+        "count": 13,
+        "percentage": "43.33"
+      },
+      {
+        "odd": 3,
+        "even": 3,
+        "count": 6,
+        "percentage": "20.00"
+      },
+      {
+        "odd": 2,
+        "even": 4,
+        "count": 4,
+        "percentage": "13.33"
+      }
+    ],
+    "description": "최근 30회 패턴 기반 (4:2, 3:3, 2:4, 최근 트렌드 반영)"
+  }
+}

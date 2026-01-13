@@ -1,0 +1,23 @@
+{
+  "description": "로또 번호의 산술적 복잡성(AC)을 제한하는 필터입니다. AC값이 높을수록 번호들이 고르게 분포되어 있음을 의미합니다.",
+  "conservative": {
+    "min": 7,
+    "max": 9,
+    "description": "25%-75% 분위수 (중간 50% 범위)"
+  },
+  "balanced": {
+    "min": 6,
+    "max": 10,
+    "description": "10%-90% 분위수 (넓은 80% 범위)"
+  },
+  "aggressive": {
+    "min": 7,
+    "max": 9,
+    "description": "평균±1표준편차 (68% 신뢰구간)"
+  },
+  "ai": {
+    "min": 7,
+    "max": 8,
+    "description": "최근 30회 패턴 기반 (7-8 범위, 최근 트렌드 반영)"
+  }
+}

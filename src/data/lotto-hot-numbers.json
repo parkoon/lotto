@@ -1,0 +1,118 @@
+{
+  "lastUpdated": "2025-07-11T01:39:54.482Z",
+  "analysisRounds": 5,
+  "totalNumbers": 22,
+  "numbers": [
+    {
+      "number": 3,
+      "frequency": 3,
+      "lastAppeared": 1179
+    },
+    {
+      "number": 16,
+      "frequency": 2,
+      "lastAppeared": 1179
+    },
+    {
+      "number": 44,
+      "frequency": 2,
+      "lastAppeared": 1179
+    },
+    {
+      "number": 21,
+      "frequency": 2,
+      "lastAppeared": 1179
+    },
+    {
+      "number": 6,
+      "frequency": 2,
+      "lastAppeared": 1178
+    },
+    {
+      "number": 11,
+      "frequency": 2,
+      "lastAppeared": 1178
+    },
+    {
+      "number": 43,
+      "frequency": 2,
+      "lastAppeared": 1178
+    },
+    {
+      "number": 7,
+      "frequency": 2,
+      "lastAppeared": 1177
+    },
+    {
+      "number": 18,
+      "frequency": 1,
+      "lastAppeared": 1179
+    },
+    {
+      "number": 24,
+      "frequency": 1,
+      "lastAppeared": 1179
+    },
+    {
+      "number": 40,
+      "frequency": 1,
+      "lastAppeared": 1179
+    },
+    {
+      "number": 5,
+      "frequency": 1,
+      "lastAppeared": 1178
+    },
+    {
+      "number": 27,
+      "frequency": 1,
+      "lastAppeared": 1178
+    },
+    {
+      "number": 15,
+      "frequency": 1,
+      "lastAppeared": 1177
+    },
+    {
+      "number": 19,
+      "frequency": 1,
+      "lastAppeared": 1177
+    },
+    {
+      "number": 9,
+      "frequency": 1,
+      "lastAppeared": 1176
+    },
+    {
+      "number": 30,
+      "frequency": 1,
+      "lastAppeared": 1176
+    },
+    {
+      "number": 35,
+      "frequency": 1,
+      "lastAppeared": 1176
+    },
+    {
+      "number": 4,
+      "frequency": 1,
+      "lastAppeared": 1175
+    },
+    {
+      "number": 8,
+      "frequency": 1,
+      "lastAppeared": 1175
+    },
+    {
+      "number": 32,
+      "frequency": 1,
+      "lastAppeared": 1175
+    },
+    {
+      "number": 42,
+      "frequency": 1,
+      "lastAppeared": 1175
+    }
+  ],
+  "description": "최근 5회차 동안 1번 이상 출현한 번호들 (보너스 번호 포함)"
+}

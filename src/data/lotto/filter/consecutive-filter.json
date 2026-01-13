@@ -1,0 +1,23 @@
+{
+  "description": "로또 번호 중 연속된 번호의 최대 개수를 제한하는 필터입니다. 연속번호는 1,2,3과 같은 순서대로 이어지는 번호입니다.",
+  "conservative": {
+    "min": 1,
+    "max": 2,
+    "description": "25%-75% 분위수 (중간 50% 범위)"
+  },
+  "balanced": {
+    "min": 1,
+    "max": 2,
+    "description": "10%-90% 분위수 (넓은 80% 범위)"
+  },
+  "aggressive": {
+    "min": 1,
+    "max": 2,
+    "description": "평균±1표준편차 (68% 신뢰구간)"
+  },
+  "ai": {
+    "min": 1,
+    "max": 2,
+    "description": "패턴 기반 (1-2 범위, 전체 데이터 분석)"
+  }
+}

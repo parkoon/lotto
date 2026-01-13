@@ -1,0 +1,23 @@
+{
+  "description": "로또 번호 중 합성수의 개수를 제한하는 필터입니다. 합성수는 소수가 아닌 자연수입니다.",
+  "conservative": {
+    "min": 3,
+    "max": 5,
+    "description": "25%-75% 분위수 (중간 50% 범위)"
+  },
+  "balanced": {
+    "min": 3,
+    "max": 5,
+    "description": "10%-90% 분위수 (넓은 80% 범위)"
+  },
+  "aggressive": {
+    "min": 3,
+    "max": 5,
+    "description": "평균±1표준편차 (68% 신뢰구간)"
+  },
+  "ai": {
+    "min": 3,
+    "max": 5,
+    "description": "패턴 기반 (3-5 범위, 전체 데이터 분석)"
+  }
+}
