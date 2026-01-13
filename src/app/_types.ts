@@ -3,7 +3,7 @@ export type LottoDraw = {
   date: string
   rank: number
   numbers: number[]
-  bonus: number
+  bonus?: number
   totalSales?: number
   firstPrizeAmount?: number
   firstWinners?: number

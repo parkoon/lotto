@@ -30,7 +30,7 @@ export default function CheckPage() {
         const matchCount = numbers.filter((n) =>
           draw.numbers.includes(n)
         ).length
-        const bonusMatch = numbers.includes(draw.bonus)
+        const bonusMatch = numbers.includes(draw.bonus ?? 0)
 
         let rank: number | null = null
         if (matchCount === 6) rank = 1

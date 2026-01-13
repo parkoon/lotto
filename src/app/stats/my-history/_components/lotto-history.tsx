@@ -48,7 +48,7 @@ export const LottoHistory = ({ myNumbers, items }: LottoHistoryProps) => {
                   <LottoBall
                     num={item.bonus}
                     size="sm"
-                    disabled={!myNumbers.includes(item.bonus)}
+                    disabled={!myNumbers.includes(item.bonus ?? 0)}
                   />
                 </div>
 
